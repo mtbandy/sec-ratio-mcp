@@ -7,7 +7,6 @@ An Model Context Protocol (MCP) server enabling AI agents (Claude Desktop, Curso
 - **9 TTM & MRQ Financial Ratios:** Calculates P/E, P/OCF, P/FCF, P/B, EV/EBITDA, ROIC %, Debt/Equity, Current Ratio, and Interest Coverage.
 - **SEC EDGAR Audit Trails:** Includes accession numbers and filing dates for underlying US-GAAP XBRL tags.
 - **x402 On-Chain Settlement:** Automatic $0.003 USDC micropayment authorization via Base Mainnet (`eip155:8453`) using Coinbase CDP.
-- **Dev Mode:** Supports zero-latency free queries via local `DEV_BYPASS_KEY`.
 
 ## Available Tools
 
@@ -22,7 +21,7 @@ Fetches and calculates TTM financial ratios for a given stock ticker and price.
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/mtbandy/sec-ratio-mcp.git
+   git clone [https://github.com/mtbandy/sec-ratio-mcp.git](https://github.com/mtbandy/sec-ratio-mcp.git)
    cd sec-ratio-mcp
    ```
 
@@ -36,9 +35,6 @@ Fetches and calculates TTM financial ratios for a given stock ticker and price.
    ```env
    # Live x402 On-Chain Transactions (Requires ~0.003 USDC on Base)
    PAYMENT_PRIVATE_KEY=0x_your_evm_private_key
-
-   # Optional: Free Local Development Override
-   # DEV_BYPASS_KEY=your_dev_bypass_key
    ```
 
 4. **Run in FastMCP Inspector:**
@@ -51,5 +47,5 @@ Fetches and calculates TTM financial ratios for a given stock ticker and price.
 Integrate directly into Smithery.ai, Claude Desktop, or Cursor by registering this repository URL:
 
 ```text
-https://github.com/mtbandy/sec-ratio-mcp
+[https://github.com/mtbandy/sec-ratio-mcp](https://github.com/mtbandy/sec-ratio-mcp)
 ```
