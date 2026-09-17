@@ -1,0 +1,8 @@
+startCommand:
+  type: stdio
+  config:
+    command: python
+    args:
+      - mcp_server.py
+    env:
+      PAYMENT_PRIVATE_KEY: "PAYMENT_PRIVATE_KEY"
